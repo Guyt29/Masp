@@ -148,5 +148,9 @@ footer h1{
 
         padding-right: 0px;
     }
+    .info{
+        padding-left: 30px;
+        padding-bottom: 50px;
+    }
 
 }
