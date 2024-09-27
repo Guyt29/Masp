@@ -142,5 +142,11 @@ footer h1{
         display: flex;
         justify-content: center;
     }
- 
+    .footerNav{
+        display: flex;
+        justify-content: space-between;
+
+        padding-right: 0px;
+    }
+
 }

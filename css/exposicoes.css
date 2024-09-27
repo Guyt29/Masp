@@ -143,5 +143,10 @@ footer h1{
     .card-direita p{
         padding: 0px;
     }
+    .footerNav{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0px;
+    }
 
 }
