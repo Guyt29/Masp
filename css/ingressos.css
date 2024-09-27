@@ -1,0 +1,128 @@
+:root{
+    --color1: black;
+    --color2: white;
+    --color3: rgb(233, 0, 0);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: var(--color2);
+    font-family: 'inter', sans-serif; /*Coloca a fonte na pagina inteira*/
+}
+header{
+    background: var(--color1);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+header img{
+    width: 120px;
+    height: 120px;
+    align-items: center;
+}
+nav ul li{
+    text-decoration: none;
+    display: inline;
+    width: 120px;
+    height: 30px;
+    margin: 2px;
+    padding: 1px 5px 1px 5px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    color: var(--color2);
+    font-size: 1.5rem;
+}
+nav ul li a:hover{
+    color: var(--color3);
+    text-decoration: underline;
+}
+/*Essa parte é onde a magia acontece ( tive que dar uma pesquisada + cheptezar um pouco, me perdoe deus cidade :( )*/
+
+/*Vou comentar parte por parte para ajudar na compreensão de meus colegas -_- */
+
+.imagem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.imagem h1{
+    padding: 20px;
+}
+.emoji-ingresso { /* arrumar a imagem do ingresso */
+    display: flex; /* Usa flexbox para alinhar a imagem e o texto lado a lado */
+    width: 60px; /*largura*/
+    height: 60px; /*altura*/
+
+}
+.localizacao{
+    width: 60px;
+    height: 60px;
+}
+/*fazendo a caixa*/
+.caixa {  
+    border: 1px solid black; /*cor e expessura a borda*/
+    padding: 20px; /*distância entre o conteúdo e a borda*/
+    width: 800px; /*tamanho do nosso quadradao*/ 
+    margin-top: 50px; /*Nosso querido espaço entre o quadradao e o título*/
+    margin-left: 50px; /* Mantém nosso lindo quandrado alinhada à esquerda */
+    border-radius: 30px; /*deixa a borda do nosso quadrado diferenciada -_-*/
+    margin-bottom: 30px; /*espaço entre às caixas*/
+}
+
+/*divindo às informções do quadrado*/
+.caixa h1 {
+    font-size: 1.5em; /* Tamanho do texto dos subtítulos */
+    margin-bottom: 10px; /* Espaço entre o subtítulo e o parágrafo */
+}
+
+.caixa p {
+    margin-bottom: 20px; /* Espaço entre os parágrafos */
+    font-size: 1.2em;
+}
+.caixa a {
+    color: rgb(21, 218, 3);
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color1);
+}
+footer h1{
+    color: var(--color3);
+    font-size: 5.5rem;
+    font-weight: 900;
+}
+
+.info{
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+.info p {
+    color: var(--color2);
+    font-size: 1.25rem;
+
+}
+.footerNav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7%;
+}
+.footerNav img{
+    width: 70px;
+    height: 70px;
+}
