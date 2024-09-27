@@ -73,9 +73,9 @@ nav ul li a:hover{
 .caixa {  
     border: 1px solid black; /*cor e expessura a borda*/
     padding: 20px; /*distância entre o conteúdo e a borda*/
-    width: 800px; /*tamanho do nosso quadradao*/ 
     margin-top: 50px; /*Nosso querido espaço entre o quadradao e o título*/
     margin-left: 50px; /* Mantém nosso lindo quandrado alinhada à esquerda */
+    width: 800px; /*tamanho do nosso quadradao*/ 
     border-radius: 30px; /*deixa a borda do nosso quadrado diferenciada -_-*/
     margin-bottom: 30px; /*espaço entre às caixas*/
 }
@@ -136,7 +136,8 @@ footer h1{
     }
     .caixa{
         width: 90%;
-        margin: 0px;
+        margin-top: 0px; /*Nosso querido espaço entre o quadradao e o título*/
+        margin-left: 0px; /* Mantém nosso lindo quandrado alinhada à esquerda */
     }
     .imagem{
         display: flex;

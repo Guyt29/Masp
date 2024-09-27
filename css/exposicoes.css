@@ -130,6 +130,7 @@ footer h1{
     }
     .card-esquerda p{
         padding: 0px;
+        font-size: 1.5rem;
     }
     .card-direita{
         display: flex;
@@ -142,6 +143,7 @@ footer h1{
     }
     .card-direita p{
         padding: 0px;
+        font-size: 1.5rem;
     }
     .footerNav{
         display: flex;
