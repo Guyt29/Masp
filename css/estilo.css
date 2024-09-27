@@ -140,3 +140,25 @@ footer h1{
     width: 70px;
     height: 70px;
 }
+
+/*Responsividade*/
+@media(max-width:768px)
+{
+    #banner{
+        width: 100%;
+        height: 350px;
+    }
+    .estrutura{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .estrutura img{
+        width: 100%;
+        height: 300px;
+        padding-bottom: 30px;
+    }
+    .footerNav{
+        padding-left: 60px;
+    }
+}
